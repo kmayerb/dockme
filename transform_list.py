@@ -17,6 +17,7 @@ oh = open(args.output, "w")
 
 for v, tv in zip(values, tranformed_values):
 	oh.write('{}\t{}\n'.format(v,tv))
+	print('{}\t{}\n'.format(v,tv))
 
 oh.close()
 
